@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="mainSecond.css">
+    <script src="mainSecond.js"></script>
+</head>
+<body>
+    <center><h1>Rock, paper, scissors game</h1></center>
+
+    <article id="article">
+        <label for="items">Choose wisely:</label>
+        <select name="selectItems" id="selectItems">
+            <option value="rock" id="rock">Rock</option>
+            <option value="paper" id="paper">Paper</option>
+            <option value="scissors" id="scissors">Scissors</option>
+        </select>
+        <br> <br>
+        <button onclick="play()" type="button" id="button">Play!</button>
+        <p id="displayComputer"></p> 
+        <p id="displayUser"></p> 
+        <p id="displayWinner"></p> 
+    </article>
+</body>
+</html>
